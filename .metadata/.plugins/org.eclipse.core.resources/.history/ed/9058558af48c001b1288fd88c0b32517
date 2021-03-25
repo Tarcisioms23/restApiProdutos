@@ -1,0 +1,5 @@
+package com.produtos.apirest.resources;
+
+public class produtoResource {
+
+}

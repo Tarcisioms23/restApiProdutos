@@ -1,0 +1,17 @@
+package com.produtos.apirest.repository;
+
+import java.util.Optional;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.produtos.apirest.models.Produto;
+
+public interface ProdutoRepository extends JpaRepository<Produto, Long>{
+//Pq que extender jpaRepository? Para fazer persistencias no banco de dados Insert delete etc....
+	
+	
+		Optional<Produto> findById(Long id);
+	
+	
+	
+}

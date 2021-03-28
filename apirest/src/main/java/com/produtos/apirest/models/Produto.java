@@ -14,7 +14,8 @@ import javax.persistence.Table;
 @Entity
 @Table(name= "TB_PRODUTO")
 public class Produto implements Serializable{
-	
+	//Entidade do banco - Vai criar  essa tabela com os campos abaixo o hibernate
+	//Essa classe sera uma entidade do banco de dados	
 	/**
 	 * 
 	 */
